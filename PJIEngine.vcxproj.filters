@@ -1,0 +1,409 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CLInclude Include="resource.h">
+      <Filter>header</Filter>
+    </CLInclude>
+    <ClInclude Include="Main.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="cShape.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="GeometryGenerator.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="MathHelper.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="DDSTextureLoader.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderState.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Vertex.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="EffectMGR.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureResourceMGR.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeMGR.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="EngineScene.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseScene.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="singletonBase.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="LightMGR.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleSystem.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Picking.h" />
+    <ClInclude Include="Sky.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="cMouseInput.h" />
+    <ClInclude Include="ShadowMap.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="OutLineMap.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="NormalDepthMap.h" />
+    <ClInclude Include="BlurFilter.h" />
+    <ClInclude Include="HDR.h">
+      <Filter>HighLevel</Filter>
+    </ClInclude>
+    <ClInclude Include="BloomFilter.h" />
+    <ClInclude Include="OffScreenTextureView.h" />
+    <ClInclude Include="DissolveShader.h" />
+    <ClInclude Include="MeshGeometry.h">
+      <Filter>MeshTest</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomFileLoader.h">
+      <Filter>MeshTest</Filter>
+    </ClInclude>
+    <ClInclude Include="BasicModel.h">
+      <Filter>MeshTest</Filter>
+    </ClInclude>
+    <ClInclude Include="SkinnedData.h">
+      <Filter>MeshTest</Filter>
+    </ClInclude>
+    <ClInclude Include="SkinnedModel.h">
+      <Filter>MeshTest</Filter>
+    </ClInclude>
+    <ClInclude Include="FBXLoader.h">
+      <Filter>MeshTest</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationMGR.h">
+      <Filter>Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="SkinData.h">
+      <Filter>Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="SkinModel.h">
+      <Filter>Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="SkinnedAnimationData.h">
+      <Filter>Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="AssimpFBXLoader.h">
+      <Filter>Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="Bone.h">
+      <Filter>Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="Gbuffer.h">
+      <Filter>DefferedShading</Filter>
+    </ClInclude>
+    <ClInclude Include="DeferredShading.h" />
+    <ClInclude Include="SSAO.h" />
+    <ClInclude Include="TileDeferredingShading.h" />
+    <ClInclude Include="Glow.h" />
+    <ClInclude Include="HeatHaze.h" />
+    <ClInclude Include="FlameEffect.h">
+      <Filter>Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="SSR.h" />
+    <ClInclude Include="PointLightShadow.h" />
+    <ClInclude Include="..\..\..\..\Downloads\imgui-master\imgui-master\imconfig.h">
+      <Filter>Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Downloads\imgui-master\imgui-master\imgui.h">
+      <Filter>Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Downloads\imgui-master\imgui-master\imgui_internal.h">
+      <Filter>Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Downloads\imgui-master\imgui-master\examples\imgui_impl_dx11.h">
+      <Filter>Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Downloads\imgui-master\imgui-master\examples\imgui_impl_win32.h">
+      <Filter>Imgui</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\DXUT\Optional\directx.ico">
+      <Filter>Common</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="header">
+      <UniqueIdentifier>{c625a8d1-9281-422b-b28f-88b541e017c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cpp">
+      <UniqueIdentifier>{3d7e47b3-181e-4ab7-befb-f345364c103d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="fx">
+      <UniqueIdentifier>{a4868b6b-2960-4dc0-8c20-fcf8b1dd0f65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common">
+      <UniqueIdentifier>{27d3f665-cd77-47b1-9bcf-ff5c40197171}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager">
+      <UniqueIdentifier>{14f110fb-3ab3-4d85-a2ea-489f4d9a2e24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene">
+      <UniqueIdentifier>{7cd2caf6-3453-4d89-866c-90c06a3ae380}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HighLevel">
+      <UniqueIdentifier>{4237a695-24de-4f9e-bd13-ac53b3c7c0e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SimpleAnimation">
+      <UniqueIdentifier>{a70b2d85-573e-44e7-9b95-991899f7501a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MeshTest">
+      <UniqueIdentifier>{adfb47e7-b9e2-4377-84f2-b8c809477061}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mesh">
+      <UniqueIdentifier>{65456991-60a3-4525-8023-74589a1dd6f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DefferedShading">
+      <UniqueIdentifier>{f03baba2-3cde-454c-8618-7ee2739dbc65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Effect">
+      <UniqueIdentifier>{31b9a49c-e187-412c-b4f5-ef1d95f1f297}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Imgui">
+      <UniqueIdentifier>{c7bb7d8e-71cc-44ae-a328-d80501e3b293}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="cShape.cpp">
+      <Filter>cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="GeometryGenerator.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="MathHelper.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="DDSTextureLoader.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderState.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Vertex.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureResourceMGR.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeMGR.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="EffectMGR.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="EngineScene.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseScene.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleSystem.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Picking.cpp" />
+    <ClCompile Include="Sky.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="cMouseInput.cpp" />
+    <ClCompile Include="LightMGR.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="ShadowMap.cpp">
+      <Filter>cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="OutLineMap.cpp">
+      <Filter>cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="NormalDepthMap.cpp" />
+    <ClCompile Include="BlurFilter.cpp" />
+    <ClCompile Include="HDR.cpp">
+      <Filter>HighLevel</Filter>
+    </ClCompile>
+    <ClCompile Include="BloomFilter.cpp" />
+    <ClCompile Include="OffScreenTextureView.cpp" />
+    <ClCompile Include="DissolveShader.cpp" />
+    <ClCompile Include="MeshGeometry.cpp">
+      <Filter>MeshTest</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomFileLoader.cpp">
+      <Filter>MeshTest</Filter>
+    </ClCompile>
+    <ClCompile Include="BasicModel.cpp">
+      <Filter>MeshTest</Filter>
+    </ClCompile>
+    <ClCompile Include="SkinnedData.cpp">
+      <Filter>MeshTest</Filter>
+    </ClCompile>
+    <ClCompile Include="SkinnedModel.cpp">
+      <Filter>MeshTest</Filter>
+    </ClCompile>
+    <ClCompile Include="FBXLoader.cpp">
+      <Filter>MeshTest</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimationMGR.cpp">
+      <Filter>Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="SkinData.cpp">
+      <Filter>Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="SkinModel.cpp">
+      <Filter>Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="SkinnedAnimationData.cpp">
+      <Filter>Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="AssimpFBXLoader.cpp">
+      <Filter>Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="Bone.cpp">
+      <Filter>Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="Gbuffer.cpp">
+      <Filter>DefferedShading</Filter>
+    </ClCompile>
+    <ClCompile Include="DeferredShading.cpp" />
+    <ClCompile Include="SSAO.cpp" />
+    <ClCompile Include="TileDeferredingShading.cpp" />
+    <ClCompile Include="Glow.cpp" />
+    <ClCompile Include="HeatHaze.cpp" />
+    <ClCompile Include="FlameEffect.cpp">
+      <Filter>Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="SSR.cpp" />
+    <ClCompile Include="PointLightShadow.cpp" />
+    <ClCompile Include="..\..\..\..\Downloads\imgui-master\imgui-master\imgui.cpp">
+      <Filter>Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Downloads\imgui-master\imgui-master\imgui_demo.cpp">
+      <Filter>Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Downloads\imgui-master\imgui-master\imgui_draw.cpp">
+      <Filter>Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Downloads\imgui-master\imgui-master\imgui_widgets.cpp">
+      <Filter>Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Downloads\imgui-master\imgui-master\examples\imgui_impl_dx11.cpp">
+      <Filter>Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Downloads\imgui-master\imgui-master\examples\imgui_impl_win32.cpp">
+      <Filter>Imgui</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Tutorial11.rc">
+      <Filter>Common</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="FX\Simple.fx">
+      <Filter>fx</Filter>
+    </FxCompile>
+    <FxCompile Include="FX\Sky.fx">
+      <Filter>fx</Filter>
+    </FxCompile>
+    <FxCompile Include="FX\Basic.fx">
+      <Filter>fx</Filter>
+    </FxCompile>
+    <FxCompile Include="FX\BuildShadowMap.fx">
+      <Filter>fx</Filter>
+    </FxCompile>
+    <FxCompile Include="FX\LightHelper.fx">
+      <Filter>fx</Filter>
+    </FxCompile>
+    <FxCompile Include="FX\OutLineShading.fx">
+      <Filter>fx</Filter>
+    </FxCompile>
+    <FxCompile Include="FX\BuildNoramlZ.fx">
+      <Filter>fx</Filter>
+    </FxCompile>
+    <FxCompile Include="FX\Blur.fx">
+      <Filter>fx</Filter>
+    </FxCompile>
+    <FxCompile Include="FX\PostDownScaleFX.fx">
+      <Filter>fx</Filter>
+    </FxCompile>
+    <FxCompile Include="FX\PosFX.fx">
+      <Filter>fx</Filter>
+    </FxCompile>
+    <FxCompile Include="FX\Rendering.fx">
+      <Filter>fx</Filter>
+    </FxCompile>
+    <FxCompile Include="FX\DissolveEdge.fx">
+      <Filter>fx</Filter>
+    </FxCompile>
+    <FxCompile Include="FX\GBuffer.fx">
+      <Filter>fx</Filter>
+    </FxCompile>
+    <FxCompile Include="FX\DeferredShadingPointLight.fx">
+      <Filter>fx</Filter>
+    </FxCompile>
+    <FxCompile Include="FX\DeferredShadingDirLight.fx">
+      <Filter>fx</Filter>
+    </FxCompile>
+    <FxCompile Include="FX\SSAO.fx">
+      <Filter>fx</Filter>
+    </FxCompile>
+    <FxCompile Include="FX\SSAOSecond.fx">
+      <Filter>fx</Filter>
+    </FxCompile>
+    <FxCompile Include="FX\EdgeBlur.fx">
+      <Filter>fx</Filter>
+    </FxCompile>
+    <FxCompile Include="FX\SSAOBlurCS.fx">
+      <Filter>fx</Filter>
+    </FxCompile>
+    <FxCompile Include="FX\PerTileBaseLightingCS.fx">
+      <Filter>fx</Filter>
+    </FxCompile>
+    <FxCompile Include="FX\PerTileBaseRenderingCS.fx">
+      <Filter>fx</Filter>
+    </FxCompile>
+    <FxCompile Include="FX\GlowGS.fx">
+      <Filter>fx</Filter>
+    </FxCompile>
+    <FxCompile Include="FX\HeatHaze.fx">
+      <Filter>fx</Filter>
+    </FxCompile>
+    <FxCompile Include="FX\SpriteFX.fx">
+      <Filter>fx</Filter>
+    </FxCompile>
+    <FxCompile Include="FX\ParellOcculusionMappingFX.fx">
+      <Filter>fx</Filter>
+    </FxCompile>
+    <FxCompile Include="FX\SSR2.fx">
+      <Filter>fx</Filter>
+    </FxCompile>
+    <FxCompile Include="FX\SSR.fx">
+      <Filter>fx</Filter>
+    </FxCompile>
+    <FxCompile Include="FX\BuildShadowCubeMap.fx">
+      <Filter>fx</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>
